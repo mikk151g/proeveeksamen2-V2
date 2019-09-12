@@ -52,3 +52,54 @@
     margin-bottom: 3rem;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: $color-black;
+  height: 20rem;
+
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav {
+
+    &-wrapper {
+      width: 12rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    &__list {
+      height: 13rem;
+      list-style: none;
+    }
+
+    &__item {
+      text-align: center;
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 5rem;
+      }
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $color-text-grey;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.4rem;
+  color: $color-copyright;
+  margin-top: -2.5rem;
+}
