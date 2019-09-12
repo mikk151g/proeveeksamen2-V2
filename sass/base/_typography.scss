@@ -1,4 +1,10 @@
 body {
   font-family: "Helvetica Neue";
-  color: $color-text;
+  color: $color-black;
+}
+
+.secondary-heading {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }

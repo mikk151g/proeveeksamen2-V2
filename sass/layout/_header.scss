@@ -1,8 +1,5 @@
 .logo {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  @include img-default;
   padding: 1rem 0;
 
   &-wrapper {
@@ -11,8 +8,5 @@
 }
 
 .header__img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  @include img-default;
 }
