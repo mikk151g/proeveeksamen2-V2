@@ -1,0 +1,11 @@
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0;
+
+  &-wrapper {
+    background-color: $color-black;
+  }
+}
