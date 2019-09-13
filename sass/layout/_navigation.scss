@@ -18,13 +18,10 @@
     list-style: none;
   }
 
-  &__item {
-    padding: 1rem;
-  }
-
   &__link {
     text-decoration: none;
     font-size: 1.4rem;
     text-transform: uppercase;
+    padding: 1rem;
   }
 }
