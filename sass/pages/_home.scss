@@ -2,11 +2,11 @@
 
   .section__bikes {
     margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
   }
 
   &__img {
@@ -35,13 +35,8 @@
   }
 }
 
-.video {
-  @include img-default;
-  padding: 2rem 1.5rem 2rem 0;
-}
-
 .text-box {
-  padding: 2rem 0 0 1.5rem;
+  margin: 2rem 0 0 1.5rem;
   
   &.text:not(:last-child) {
     margin-bottom: 0;
